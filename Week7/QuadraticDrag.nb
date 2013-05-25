@@ -1,0 +1,121 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 8.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       157,          7]
+NotebookDataLength[      3276,        111]
+NotebookOptionsPosition[      2745,         88]
+NotebookOutlinePosition[      3081,        103]
+CellTagsIndexPosition[      3038,        100]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[TextData[{
+ StyleBox["Mathematica",
+  FontSlant->"Italic"],
+ " Exercises 6"
+}], "Title",
+ CellChangeTimes->{{3.578437326789762*^9, 3.578437332637726*^9}}],
+
+Cell["Question 2", "Subtitle",
+ CellChangeTimes->{{3.5784373393566027`*^9, 3.578437341655425*^9}}],
+
+Cell["Part (a)", "Subsubtitle",
+ CellChangeTimes->{{3.578437347449539*^9, 3.5784373502637587`*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"x", " ", "=", " ", 
+  RowBox[{"vt", " ", "+", " ", 
+   RowBox[{"Integrate", "[", 
+    RowBox[{"Sqrt", "[", 
+     RowBox[{
+      RowBox[{"[", 
+       RowBox[{"2", "m", "*", "9.8"}], "]"}], "/", 
+      RowBox[{"[", 
+       RowBox[{"0.5", "*", "1.29", "*", "A"}], "]"}]}], "]"}], 
+    "]"}]}]}]], "Input",
+ CellChangeTimes->{{3.578437363650305*^9, 3.578437366549621*^9}, {
+   3.578437401235056*^9, 3.578437436172399*^9}, {3.578437483079371*^9, 
+   3.5784375449332113`*^9}, 3.578438163620075*^9, 3.578438265125939*^9, {
+   3.578438682055831*^9, 3.578438682336204*^9}, {3.578438864141181*^9, 
+   3.57843886512*^9}, {3.57843897620786*^9, 3.5784389765883627`*^9}, {
+   3.5784459042219343`*^9, 3.578445905446414*^9}},
+ EmphasizeSyntaxErrors->True],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"Syntax", "::", "sntxb"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"Expression cannot begin with \
+\\\"\[NoBreak]\\!\\(\\(\\([\\(\\(2 m * 9.8\\)\\)]\\)\\)/\\(\\([\\(\\(0.5 * \
+1.29 * A\\)\\)]\\)\\)\\)\[NoBreak]\\\"\[NoBreak]\\!\\(\\\"\\\"\\)\[NoBreak].\"\
+\>"}]], "Message", "MSG",
+ CellChangeTimes->{3.578437552423874*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"Syntax", "::", "tsntxi"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"\\\"\[NoBreak]\\!\\([\\(\\(2 m * 9.8\\)\\)]\\)\[NoBreak]\\\
+\" is incomplete; more input is \
+needed.\[NoBreak]\\!\\(\\\"\\\"\\)\[NoBreak]\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{3.578437552455181*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"Syntax", "::", "sntxi"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"Incomplete expression; more input is needed \
+\[NoBreak]\\!\\(\\\"\\\"\\)\[NoBreak].\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{3.578437552479607*^9}]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{740, 623},
+WindowMargins->{{Automatic, 15}, {25, Automatic}},
+FrontEndVersion->"8.0 for Linux x86 (64-bit) (October 10, 2011)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[579, 22, 159, 5, 85, "Title"],
+Cell[741, 29, 98, 1, 51, "Subtitle"],
+Cell[842, 32, 99, 1, 30, "Subsubtitle"],
+Cell[CellGroupData[{
+Cell[966, 37, 763, 17, 29, "Input"],
+Cell[1732, 56, 376, 9, 21, "Message"],
+Cell[2111, 67, 329, 8, 21, "Message"],
+Cell[2443, 77, 274, 7, 21, "Message"]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
+
